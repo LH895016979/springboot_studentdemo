@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <base th:href="${#request.getContextPath()+'/'}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/stu/addstu" method="post">
+    <table border="1">
+
+        <tr>
+            <td>
+                <input type="hidden" name="id" th:value="${stu.id}" >
+                姓名：<input type="text" name="name" th:value="${stu.name}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                年龄：<input type="text" name="age" th:value="${stu.age}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                班级:
+                <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="修改">
+</form>
+
+</body>
+</html>
