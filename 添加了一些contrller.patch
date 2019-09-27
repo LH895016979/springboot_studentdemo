@@ -1,0 +1,28 @@
+Index: src/main/java/com/qf/controller/tacherController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/qf/controller/tacherController.java	(date 1569557202022)
++++ src/main/java/com/qf/controller/tacherController.java	(date 1569557202022)
+@@ -0,0 +1,8 @@
++package com.qf.controller;
++
++/**
++ * 创建teacherController
++ */
++
++public class tacherController {
++}
+Index: src/main/java/com/qf/controller/classCoutroller.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/qf/controller/classCoutroller.java	(date 1569556627989)
++++ src/main/java/com/qf/controller/classCoutroller.java	(date 1569556627989)
+@@ -0,0 +1,4 @@
++package com.qf.controller;
++
++public class classCoutroller {
++}
